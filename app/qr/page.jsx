@@ -1,7 +1,6 @@
 "use client"
 import React, { useState, useEffect } from "react";
 import { QRCodeCanvas } from "qrcode.react";
-import "@/app/qr/style.css";
 
 const PAYMENT_API_URL = "https://checkout.paycom.uz/api";
 const PAYMENT_AUTH =
